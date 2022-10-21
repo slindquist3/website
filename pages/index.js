@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to my website<Link href="/demo">Demo</Link>
+          Welcome to my website <Link href="/demo">Button Animation Demo</Link>
         </h1>
         </main>
     </div>
