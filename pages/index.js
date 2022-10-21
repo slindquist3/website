@@ -6,13 +6,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Scott Lindquist Portfolio</title>
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Simple Next.js demo! See <Link href="/cars">Cars</Link>
+          Welcome to my website<Link href="/demo">Demo</Link>
         </h1>
         </main>
     </div>
