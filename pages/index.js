@@ -1,19 +1,25 @@
+import {useState} from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  const [pressed, setPressed] = useState(false);
+
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Scott Lindquist Portfolio</title>
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to my website <Link href="/demo">Button Animation Demo</Link>
+        <h1>
+          Welcome to my website 
         </h1>
-        </main>
+        <Link href="/demo">UI Demo</Link>
+
+        {!pressed &&
+                <button onClick={() => setPressed(!pressed)}>Press me!</button>}
+
     </div>
   )
 }
