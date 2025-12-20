@@ -1,0 +1,96 @@
+{
+  "Text": {
+    "en": {
+      "nav": {
+        "home": "Home",
+        "drawing": "Drawing",
+        "watercolor": "Watercolor",
+        "pixelArt": "Pixel Art",
+        "blog": "Blog",
+        "about": "About"
+      },
+      "home": {
+        "title": "Hi, I'm Scott",
+        "intro": "I'm a designer and illustrator based in the Pacific Northwest."
+      },
+      "about": {
+        "text": "This is the about page"
+      },
+      "drawing": {
+        "text": "This is the drawing page"
+      },
+      "watercolor": {
+        "text": "This is the watercolor page"
+      },
+      "pixelArt": {
+        "text": "This is the pixel art page"
+      },
+      "blog": {
+        "title": "This is the blog page",
+        "posts": [
+          {
+            "date": "December 22, 2025",
+            "title": "Winter break",
+            "description": "I spent the break learning a few new art techniques and experimenting with color palettes."
+          },
+          {
+            "date": "November 10, 2025",
+            "title": "New watercolor series",
+            "description": "Released a small series of loose watercolors inspired by coastal fog and muted tones."
+          },
+          {
+            "date": "October 5, 2025",
+            "title": "Pixel experiments",
+            "description": "Tried a handful of micro pixel-art studies focused on lighting and limited palettes."
+          }
+        ]
+      }
+    },
+    "es": {
+      "nav": {
+        "home": "Inicio",
+        "drawing": "Dibujo",
+        "watercolor": "Acuarela",
+        "pixelArt": "Pixel Art",
+        "blog": "Blog",
+        "about": "Acerca"
+      },
+      "home": {
+        "title": "Hola, soy Scott",
+        "intro": "Soy un diseñador e ilustrador basado en el Noroeste del Pacífico."
+      },
+      "about": {
+        "text": "Esta es la página acerca"
+      },
+      "drawing": {
+        "text": "Esta es la página de dibujo"
+      },
+      "watercolor": {
+        "text": "Esta es la página de acuarela"
+      },
+      "pixelArt": {
+        "text": "Esta es la página de pixel art"
+      },
+      "blog": {
+        "title": "Esta es la página del blog",
+        "posts": [
+          {
+            "date": "22 de diciembre de 2025",
+            "title": "Vacaciones de invierno",
+            "description": "Pasé las vacaciones aprendiendo algunas técnicas de arte nuevas y experimentando con paletas de colores."
+          },
+          {
+            "date": "10 de noviembre de 2025",
+            "title": "Nueva serie de acuarelas",
+            "description": "Lancé una pequeña serie de acuarelas sueltas inspiradas en la niebla costera y tonos apagados."
+          },
+          {
+            "date": "5 de octubre de 2025",
+            "title": "Experimentos en pixel",
+            "description": "Probé una serie de estudios micro de pixel-art enfocados en iluminación y paletas limitadas."
+          }
+        ]
+      }
+    }
+  }
+}
