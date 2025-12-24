@@ -16,12 +16,15 @@ export default function Digital() {
     >
       <SectionContainer
         title="Color Theory Final"
-        description="The capstoen project for my Color Theory class I took at San Francisco City College. I needed to create three images with different combinations of colors from the color wheel."
+        description="The capstone project for my Color Theory class I took at San Francisco City College. I needed to create three images with different combinations of colors from the color wheel."
       >
         <ImageGallery images={digital.final} />
       </SectionContainer>
 
-      <SectionContainer title="Color Harmony">
+      <SectionContainer
+        title="Color Harmony"
+        description="I was assigned a project to create three images of a color harmony."
+      >
         <ImageGallery images={digital.colorHarmony} />
       </SectionContainer>
     </PageContainer>
