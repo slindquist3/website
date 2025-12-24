@@ -1,32 +1,53 @@
 "use client";
 
+import { useState } from "react";
 import styles from "./navigation.module.css";
 import LanguageSwitch from "./language-switch";
 import { useText } from "./language-provider";
 
 export default function Navigation() {
   const t = useText();
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className={styles.navBar}>
-      <ul className={styles.navigation}>
+      <button
+        className={styles.hamburger}
+        onClick={() => setIsOpen(!isOpen)}
+        aria-label="Toggle menu"
+      >
+        ☰
+      </button>
+      <ul className={`${styles.navigation} ${isOpen ? styles.open : ""}`}>
         <li>
-          <a href="/">{t.nav.home}</a>
+          <a href="/" onClick={() => setIsOpen(false)}>
+            {t.nav.home}
+          </a>
         </li>
         <li>
-          <a href="/drawing">{t.nav.drawing}</a>
+          <a href="/drawing" onClick={() => setIsOpen(false)}>
+            {t.nav.drawing}
+          </a>
         </li>
         <li>
-          <a href="/watercolor">{t.nav.watercolor}</a>
+          <a href="/watercolor" onClick={() => setIsOpen(false)}>
+            {t.nav.watercolor}
+          </a>
         </li>
         <li>
-          <a href="/pixel-art">{t.nav.pixelArt}</a>
+          <a href="/digital" onClick={() => setIsOpen(false)}>
+            {t.nav.digital}
+          </a>
         </li>
         <li>
-          <a href="/blog">{t.nav.blog}</a>
+          <a href="/blog" onClick={() => setIsOpen(false)}>
+            {t.nav.blog}
+          </a>
         </li>
         <li>
-          <a href="/about">{t.nav.about}</a>
+          <a href="/about" onClick={() => setIsOpen(false)}>
+            {t.nav.about}
+          </a>
         </li>
       </ul>
       <div className={styles.langContainer}>

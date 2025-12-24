@@ -5,7 +5,7 @@
         "home": "Home",
         "drawing": "Drawing",
         "watercolor": "Watercolor",
-        "pixelArt": "Pixel Art",
+        "digital": "Digital",
         "blog": "Blog",
         "about": "About"
       },
@@ -22,8 +22,8 @@
       "watercolor": {
         "text": "This is the watercolor page"
       },
-      "pixelArt": {
-        "text": "This is the pixel art page"
+      "digital": {
+        "text": "This is the digital page"
       },
       "blog": {
         "title": "This is the blog page",
@@ -51,7 +51,7 @@
         "home": "Inicio",
         "drawing": "Dibujo",
         "watercolor": "Acuarela",
-        "pixelArt": "Pixel Art",
+        "digital": "Digital",
         "blog": "Blog",
         "about": "Acerca"
       },
@@ -68,8 +68,8 @@
       "watercolor": {
         "text": "Esta es la página de acuarela"
       },
-      "pixelArt": {
-        "text": "Esta es la página de pixel art"
+      "digital": {
+        "text": "Esta es la página de digital"
       },
       "blog": {
         "title": "Esta es la página del blog",

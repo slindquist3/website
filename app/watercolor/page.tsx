@@ -2,13 +2,10 @@
 
 import React from "react";
 import { useText } from "@/components/language-provider";
+import PageContainer from "@/components/page-container";
 
 export default function Watercolor() {
   const t = useText();
 
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-black text-white font-sans">
-      {t.watercolor.text}
-    </div>
-  );
+  return <PageContainer title="Watercolor">{t.watercolor.text}</PageContainer>;
 }
