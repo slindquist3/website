@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./posts.module.css";
 
 export type PostProps = {
   date: string;
@@ -15,15 +16,16 @@ export function Post({ date, title, description }: PostProps) {
   return (
     <article>
       <header>
-        <h3>{title}</h3>
+        <h3 className={styles.title}>{title}</h3>
         <time
           dateTime={iso}
+          className={styles.date}
           style={{ display: "block", color: "#666", fontSize: "0.9rem" }}
         >
           {date}
         </time>
       </header>
-      <p>{description}</p>
+      <p className={styles.description}>{description}</p>
     </article>
   );
 }

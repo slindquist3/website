@@ -11,10 +11,12 @@
       },
       "home": {
         "title": "Hi, I'm Scott",
-        "intro": "I'm a designer and illustrator based in the Pacific Northwest."
+        "intro": "I'm an art student based in San Francisco."
       },
       "about": {
-        "text": "This is the about page"
+        "text": "This is the about page",
+        "title": "About Me",
+        "description": "I'm an art student at San Francisco City College. I work primarily by drawing with graphite and painting with watercolor."
       },
       "drawing": {
         "text": "This is the drawing page"
@@ -29,19 +31,9 @@
         "title": "This is the blog page",
         "posts": [
           {
-            "date": "December 22, 2025",
+            "date": "December 24, 2025",
             "title": "Winter break",
-            "description": "I spent the break learning a few new art techniques and experimenting with color palettes."
-          },
-          {
-            "date": "November 10, 2025",
-            "title": "New watercolor series",
-            "description": "Released a small series of loose watercolors inspired by coastal fog and muted tones."
-          },
-          {
-            "date": "October 5, 2025",
-            "title": "Pixel experiments",
-            "description": "Tried a handful of micro pixel-art studies focused on lighting and limited palettes."
+            "description": "I just completed my first semester at San Francisco City College as an art student. I took two classes: Art 126, Color Theory and Art 145A Beginning Watercolor. I chose to study Color Theory because I felt like it would help me make more informed choices when selecting a palatte for my paintings. Watercolor has been a medium I used for character mockups in the past. I didn't know the fundementals of techqniques like wet-on-wet or glazing."
           }
         ]
       }
